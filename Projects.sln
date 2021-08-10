@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FragmentLib", "FragmentLib\Make\VS90\FragmentLib.vcxproj", "{5321EF6C-75B4-4A62-9854-A4F83C53B1C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BNKExtract", "Fable2Mod\Tests\BNKExtract\BNKExtract.vcxproj", "{388F32F9-86CF-4E66-AB62-A9F274503C64}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5321EF6C-75B4-4A62-9854-A4F83C53B1C1} = {5321EF6C-75B4-4A62-9854-A4F83C53B1C1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BNKLister", "Fable2Mod\Tests\BNKLister\BNKLister.vcxproj", "{7ED7D5D7-FFDF-4A8E-A8E3-9AE0A78344CB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5321EF6C-75B4-4A62-9854-A4F83C53B1C1} = {5321EF6C-75B4-4A62-9854-A4F83C53B1C1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BNKMixer", "Fable2Mod\Tests\BNKMixer\BNKMixer.vcxproj", "{DF6874FA-99BF-4AA2-844E-130919027335}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5321EF6C-75B4-4A62-9854-A4F83C53B1C1} = {5321EF6C-75B4-4A62-9854-A4F83C53B1C1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5321EF6C-75B4-4A62-9854-A4F83C53B1C1}.Debug|x86.ActiveCfg = Debug|Win32
+		{5321EF6C-75B4-4A62-9854-A4F83C53B1C1}.Debug|x86.Build.0 = Debug|Win32
+		{5321EF6C-75B4-4A62-9854-A4F83C53B1C1}.Release|x86.ActiveCfg = Release|Win32
+		{5321EF6C-75B4-4A62-9854-A4F83C53B1C1}.Release|x86.Build.0 = Release|Win32
+		{388F32F9-86CF-4E66-AB62-A9F274503C64}.Debug|x86.ActiveCfg = Debug|Win32
+		{388F32F9-86CF-4E66-AB62-A9F274503C64}.Debug|x86.Build.0 = Debug|Win32
+		{388F32F9-86CF-4E66-AB62-A9F274503C64}.Release|x86.ActiveCfg = Release|Win32
+		{388F32F9-86CF-4E66-AB62-A9F274503C64}.Release|x86.Build.0 = Release|Win32
+		{7ED7D5D7-FFDF-4A8E-A8E3-9AE0A78344CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{7ED7D5D7-FFDF-4A8E-A8E3-9AE0A78344CB}.Debug|x86.Build.0 = Debug|Win32
+		{7ED7D5D7-FFDF-4A8E-A8E3-9AE0A78344CB}.Release|x86.ActiveCfg = Release|Win32
+		{7ED7D5D7-FFDF-4A8E-A8E3-9AE0A78344CB}.Release|x86.Build.0 = Release|Win32
+		{DF6874FA-99BF-4AA2-844E-130919027335}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF6874FA-99BF-4AA2-844E-130919027335}.Debug|x86.Build.0 = Debug|Win32
+		{DF6874FA-99BF-4AA2-844E-130919027335}.Release|x86.ActiveCfg = Release|Win32
+		{DF6874FA-99BF-4AA2-844E-130919027335}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99C4ED74-B457-4D46-91ED-FB4D761135FC}
+	EndGlobalSection
+EndGlobal
